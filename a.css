@@ -1,0 +1,43 @@
+.background-image{
+    background-image: url("https://static.zerochan.net/5.Centimeters.Per.Second.full.349172.jpg");
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-size:cover;
+    z-index: -1;
+    filter: blur(10px);
+    background-repeat: no-repeat;
+}
+img {
+    width: 15%;
+    height: 212px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    z-index: 1;
+}
+.content{
+    font-family: 'Oswald', sans-serif;
+    color:#fff;
+    font-size:50px;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+}
+.links{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    font-size:20px;
+    text-transform: uppercase;
+}
+a{
+    text-align: center;
+}
+.buttons{
+    position: center;
+}
